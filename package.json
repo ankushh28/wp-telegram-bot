@@ -1,0 +1,30 @@
+{
+  "name": "shopify-telegram-whatsapp-notifier",
+  "version": "1.0.0",
+  "description": "Notify on Telegram when Shopify orders are received with WhatsApp click-to-chat links",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "shopify",
+    "telegram",
+    "whatsapp",
+    "webhook",
+    "notifications"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "libphonenumber-js": "^1.10.51"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  }
+}
